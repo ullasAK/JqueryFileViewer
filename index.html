@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!--
+  Copyright (C) 2014-<copyright@ullas>
+
+  @licstart
+   
+
+  @source: https://github.com/JqueryFileViewer
+-->
+ 
+
+<html dir="ltr" lang="en-US">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Jquery File Viewer</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+           
+        <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-ui-1.8.15.custom.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="js/jquery-ui-1.8.15.custom.css" type="text/css" media="all" />
+
+		<script src="js/jquery-fileviewer-peer-0.1.min.js" type="text/javascript" charset="utf-8"></script>
+    
+	 <script type="text/javascript">
+
+	$(document).ready(function() 
+		 {
+		 initViewer();
+		 });
+		 </script>
+    </head>
+
+    <body>
+        <div id = "viewer">
+            <div id = "titlebar">
+                
+                 
+           </div>
+            <div id = "toolbarContainer">
+                <div id = "container">
+                    <div >
+						<label id = "pdf_files" class = "" >Pdf file viewer:</label>
+                        <a style="max-width:95%;float:left;height:18.2px;" class="inlinefileviewer " data-filename="pdfviewer.pdf" data-filepath="Files/pdfviewer.pdf"   href="#" title="pdfviewer.pdf"> Click to view </a>
+                    </div>
+					
+					 <div >
+						<label id = "pdf_files" class = "" >image  viewer:</label>
+                        <a style="max-width:95%;float:left;height:18.2px;" class="inlinefileviewer " data-filename="sampleimagefile.jpg" data-filepath="Files/sampleimagefile.jpg"   href="#" title="sampleimagefile.jpg"> Click to view </a>
+                    </div>
+					
+					 <div >
+						<label id = "pdf_files" class = "" >Non supported file :</label>
+                        <a style="max-width:95%;float:left;height:18.2px;" class="inlinefileviewer " data-filename="sampleodtfile.odt" data-filepath="Files/sampleodtfile.odt"   href="#" title="sampleodtfile.odt"> Click to view </a>
+                    </div>
+                    
+                </div>
+            </div>
+                    
+           
+           
+        </div>
+    </body>
+</html>
