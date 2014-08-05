@@ -4,10 +4,12 @@ JqueryFileViewer
 JqueryFileViewer
 A javascript project to view and download pdf and image files with Jquery 
 /**
-Jquery bootstrap plugin to view pdf and image files inline bowser itself
+Jquery file viewer plugin to view pdf and image files inline bowser itself.
+
 Prerequisite
 1. jquery 1.7 > above
 2.Jquery UI 1.7 > above
+
 How to configure .
 These two steps need to be done only once .
 1.add jquery-fileviewer-peer-0.1.min.js  file in your project and include it.
