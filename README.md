@@ -1,14 +1,20 @@
 JqueryFileViewer
 ================
+
 JqueryFileViewer
-A javascript project to view and download pdf and image files with bootstrap plugin
+A javascript project to view and download pdf and image files with Jquery 
 /**
-Jquery bootstrap plugin to view pdf and image files inine bowser itself
+Jquery bootstrap plugin to view pdf and image files inline bowser itself
 Prerequisite
 1. jquery 1.7 > above
-2.Bootstrap 3.1.1 and aove
-How to
-1.add this file in your project and include it in some common place(so that can be accessed though your application .
-2. add class inlinefileviewer to the elment on which click you wish to open a file .
-3. Define two attributes a) data-filename : file name b) data-filepath: file realtive path
+2.Jquery UI 1.7 > above
+How to configure .
+These two steps need to be done only once .
+1.add jquery-fileviewer-peer-0.1.min.js  file in your project and include it.
+2.Call initViewer(); after doc ready .
+These two steps do for all places where ever you want to view  file/image in line .
+
+3. add class inlinefileviewer to the element on which click you wish to open a file .
+4. Define two attributes a) data-filename : file name b) data-filepath: file relative path
+
 and you are done */
