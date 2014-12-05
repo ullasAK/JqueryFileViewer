@@ -20,3 +20,7 @@ These two steps do for all places where ever you want to view  file/image in lin
 4. Define two attributes a) data-filename : file name b) data-filepath: file relative path
 
 and you are done */
+
+Demo :sample preview
+
+http://eventsinbox.com/Jquery-Fileviewer/index.html
